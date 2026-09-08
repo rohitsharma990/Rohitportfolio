@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22%239f2925%22/><text x=%2250%22 y=%2267%22 text-anchor=%22middle%22 font-size=%2255%22 fill=%22white%22>R</text></svg>">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="Loading">
+        <h1 class="Loading_text"></h1>
+    </div>
+
+    <nav class="Navbar">
+        <div class="nav-desktop">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </div>
+
+        <div class="Logo">
+            <img src="images/Logo.png" alt="Rohit logo">
+        </div>
+
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="mobile-menu" aria-hidden="true">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#auraJourney">Journey</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main id="main" data-scroll-container>
+        <div class="slider" id="home">
+
+            <!-- SOCIAL -->
+            <ul class="slider-social">
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            </ul>
+
+            <!-- HERO TEXT -->
+            <div class="slider-text">
+
+                <span class="japanese">うちはロヒット</span>
+
+                <h1>
+                    I DON'T DREAM<br>
+                    OF <span>VICTORY.</span><br>
+                    I <strong>CREATE IT.</strong>
+                </h1>
+
+                <p>
+                    Anime Artist | Web Designer | Creative Developer
+                </p>
+
+                <button class="slider-button">
+                    VIEW MY WORK
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+            <!-- JAPANESE / NAME -->
+            <ul class="slider-left">
+                <li>
+                    <img src="./images/Uchiha Logo.png" alt="Uchiha">
+                </li>
+                <li>ロ</li>
+                <li>ヒ</li>
+                <li>ッ</li>
+                <li>ト</li>
+            </ul>
+
+            <!-- SCROLL -->
+            <div class="scroll-down">
+                <span></span>
+                <p>SCROLL</p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+        </div>
+
+        <section class="about" id="about">
+
+            <!-- YOUR PHOTO -->
+            <div class="about-image">
+                <img src="images/my-photo.png" alt="Rohit">
+            </div>
+
+            <!-- CONTENT -->
+            <div class="about-content">
+
+                <span>ABOUT ME</span>
+
+                <h2>
+                    Turning imagination<br>
+                    into <strong>reality.</strong>
+                </h2>
+
+                <div class="brush-line"></div>
+
+                <p>
+                    I'm a creative developer and designer who loves
+                    building immersive visuals and interactive experiences.
+                    I turn ideas into digital experiences that stand out.
+                </p>
+
+                <a href="#" class="about-btn">
+                    MORE ABOUT ME
+                    <i class="fa-solid fa-star"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="skills" id="skills">
+
+            <div class="skills-overlay"></div>
+
+            <!-- TITLE -->
+            <div class="skills-title">
+                <span></span>
+
+                <div>
+                    <h2>MY <b>SKILLS</b></h2>
+                    <p>私のスキル</p>
+                </div>
+
+                <span></span>
+            </div>
+
+
+            <!-- SKILLS -->
+            <div class="skills-list">
+
+                <!-- 01 -->
+                <div class="skill">
+                    <h3>JAVASCRIPT</h3>
+
+                    <div class="skill-eye">
+                        <img src="images/skills/JAVASCRIPT.png" alt="JavaScript">
+                    </div>
+
+                    <h4>JAVASCRIPT</h4>
+                </div>
+
+
+                <!-- 02 -->
+                <div class="skill">
+                    <h3>リアクト</h3>
+
+                    <div class="skill-eye">
+                        <img src="images/skills/React.png" alt="React">
+                    </div>
+
+                    <h4>React</h4>
+                </div>
+
+
+                <!-- 03 -->
+                <div class="skill">
+                    <h3>プログラミング</h3>
+
+                    <div class="skill-eye">
+                        <img src="images/skills/python.png" alt="Python">
+                    </div>
+
+                    <h4>Python</h4>
+                </div>
+
+
+                <!-- 04 -->
+                <div class="skill">
+                    <h3>アニメーション</h3>
+
+                    <div class="skill-eye">
+                        <img src="images/skills/gsap.png" alt="GSAP">
+                    </div>
+
+                    <h4>GSAP</h4>
+                </div>
+
+
+                <!-- 05 -->
+                <div class="skill">
+                    <h3>3D クリエーション</h3>
+
+                    <div class="skill-eye">
+                        <img src="images/skills/THREE.JS.png" alt="Three.js">
+                    </div>
+
+                    <h4>THREE.JS</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="projects" id="projects">
+
+    <!-- TOP -->
+    <div class="projects-head">
+
+        <div>
+            <small>作品</small>
+            <h2>FEATURED PROJECTS</h2>
+        </div>
+
+        <a href="#all-projects" class="view-projects">
+            VIEW ALL PROJECTS
+            <span>→</span>
+        </a>
+
+    </div>
+
+
+    <!-- PROJECTS -->
+    <div class="projects-grid">
+
+        <!-- PROJECT 01 -->
+        <article class="project-card">
+
+            <div class="project-img">
+                <img src="images/projects/Ecommerce_Website.png" alt="Ecommerce Website">
+            </div>
+
+            <div class="project-info">
+                <div>
+                    <h3>Ecommerce Website</h3>
+                </div>
+
+               
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 02 -->
+        <article class="project-card">
+
+            <div class="project-img">
+                <img src="images/projects/Motionzen.png" alt="Motionzen">
+            </div>
+
+            <div class="project-info">
+                <div>
+                    <h3>Motionzen</h3>
+                    <p>Npm Library</p>
+                </div>
+
+               
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 03 -->
+        <article class="project-card">
+
+            <div class="project-img">
+                <img src="images/projects/Flexify.png" alt="Flexify">
+            </div>
+
+            <div class="project-info">
+                <div>
+                    <h3>Flexify</h3>
+                    <p>CSS Library</p>
+                </div>
+
+               
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 04 -->
+        <article class="project-card">
+
+            <div class="project-img">
+                <img src="images/projects/Proofolio.png" alt="Proofolio">
+            </div>
+
+            <div class="project-info">
+                <div>
+                    <h3>Proofolio</h3>
+                    <p>Verified. AI. Portfolio.</p>
+                </div>
+
+               
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+        <!-- =========================
+             AURA / MY JOURNEY
+        ========================== -->
+        <section class="aura-section" id="auraJourney">
+    <div class="aura-canvas-wrap">
+        <canvas id="auraCanvas" aria-label="Scroll-controlled anime aura animation"></canvas>
+    </div>
+
+    <div class="aura-content">
+        <span>MY JOURNEY</span>
+        <h2>BUILDING<br><strong>MY STORY.</strong></h2>
+        <p>Scroll to control the animation frame by frame.</p>
+    </div>
+
+    <div class="aura-scroll-text">
+        <span>SCROLL</span>
+        <div></div>
+        <span id="auraFrameCount">000 / 000</span>
+    </div>
+</section>
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+        <section class="contact" id="contact">
+
+            <div class="contact-inner">
+
+                <div class="contact-copy">
+                    <span class="contact-jp">連絡</span>
+
+                    <h2>
+                        LET'S CREATE<br>
+                        SOMETHING <strong>LEGENDARY.</strong>
+                    </h2>
+
+                    <p>
+                        Have a project in mind or just want to say hi?<br>
+                        I'm always open to exciting collaborations.
+                    </p>
+
+                    <a href="mailto:rohit15sharmaa@gmail.com" class="contact-btn">
+                        GET IN TOUCH
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="contact-details">
+
+                    <a href="mailto:rohit15sharmaa@gmail.com" class="contact-detail">
+                        <span class="contact-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </span>
+                        <div>
+                            <small>EMAIL</small>
+                            <strong>rohit15sharmaa@gmail.com</strong>
+                        </div>
+                    </a>
+
+                    <div class="contact-detail">
+                        <span class="contact-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </span>
+                        <div>
+                            <small>COLLABORATION</small>
+                            <strong>Web • Design • Creative Development</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+           
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+        <footer class="footer">
+
+            <div class="footer-left">
+                <span>© 2026 Rohit. All Rights Reserved.</span>
+            </div>
+
+            <div class="footer-center">
+                <span>創造</span>
+            </div>
+
+            <div class="footer-right">
+                <span>Built with code &amp; creativity.</span>
+
+                <button class="back-to-top" type="button" aria-label="Back to top">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </button>
+            </div>
+
+        </footer>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
